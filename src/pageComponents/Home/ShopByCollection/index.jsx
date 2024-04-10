@@ -19,7 +19,7 @@ const ShopByCollection = () => {
   }
 
   return (
-    <div className="py-[90px] px-[60px] flex flex-col gap-[25px] relative">
+    <div className="px-[60px] flex flex-col gap-[25px] relative">
       <div>
         <h3 className="text-[28px] leading-[38px] font-normal">Shop by collection</h3>
       </div>

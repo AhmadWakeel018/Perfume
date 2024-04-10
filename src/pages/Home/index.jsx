@@ -8,7 +8,7 @@ import ShopByCollection from "../../pageComponents/Home/ShopByCollection"
 
 const Home = () => {
   return (
-    <div className="flex flex-col bg-black text-white">
+    <div className="flex flex-col gap-[45px] bg-black text-white">
       <HeroSection />
       <ShopByCollection />
       <LatestTrends />

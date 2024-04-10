@@ -14,6 +14,9 @@ const twitterIcon = './src/assets/icon-twitter.png';
 const linkedInIcon = './src/assets/icon-linkedin.png';
 const instaIcon = './src/assets/icon-insta.png';
 const logo = './src/assets/Logo.png'
+const newCity = './src/assets/new-city-scent.png';
+const newSummer = './src/assets/new-summer-heat.png';
+const newTropical = './src/assets/new-tropicalrain.png';
 
 export{
     heroBG,
@@ -31,5 +34,8 @@ export{
     facebookIcon,
     twitterIcon,
     linkedInIcon,
-    instaIcon
+    instaIcon,
+    newCity,
+    newSummer,
+    newTropical
 }

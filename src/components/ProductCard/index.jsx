@@ -8,10 +8,10 @@ const ProductCard = () => {
             </div>
             <div className="flex flex-col gap-[10px] px-[10px]">
                 <div className="flex justify-between items-center">
-                    <h3 className="text-[14px] font-normal leading-[20px]">City Scent Product</h3>
+                    <h3 className="text-[14px] font-normal text-white leading-[20px]">City Scent Product</h3>
                     <span className="flex gap-[5px]">
                         <img src={star}  />
-                        <p className="text-[14px] leading-[18px]">4.1</p>
+                        <p className="text-[14px] text-white leading-[18px]">4.1</p>
                     </span>
                 </div>
                 <p className="text-[14px] font-normal text-[#777777] leading-[20px]">Body Fit</p>

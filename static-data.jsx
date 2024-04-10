@@ -1,4 +1,4 @@
-import { cityScents, summerHeat, tropicalRain } from "./static-img-urls";
+import { cityScents, newCity, newSummer, newTropical, summerHeat, tropicalRain } from "./static-img-urls";
 
 const collectionData = [
     {
@@ -23,6 +23,28 @@ const collectionData = [
     },
 ]
 
+const NewFeaturedSlides = [
+    {
+        heading:"City Scent Collection",
+        subheading:"example text for this sections paragraph text but longer for vsual.  example text for this.",
+        bgImage:newCity,
+        featuredImg:cityScents
+    },
+    {
+        heading:"Summer Heat Collection",
+        subheading:"example text for this sections paragraph text but longer for vsual.  example text for this.",
+        bgImage:newSummer,
+        featuredImg:summerHeat
+    },
+    {
+        heading:"Tropical Rain Collection",
+        subheading:"example text for this sections paragraph text but longer for vsual.  example text for this.",
+        bgImage:newTropical,
+        featuredImg:tropicalRain
+    }
+]
+
 export {
-    collectionData
+    collectionData,
+    NewFeaturedSlides
 }

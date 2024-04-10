@@ -22,7 +22,14 @@
     width: 12px !important;
     background: none !important;
 }
+.newfeatured .splide__arrow svg{
+    fill: white;
+}
 
+.borderstyle{
+    background: linear-gradient(90deg, #B78E35 0%, #FFD477 100%);
+    height: 2px;
+}
 .gradient-text {
     font-size: 14px;
     background: linear-gradient(101.46deg, #B78E35 15%, #FFD477 10%);

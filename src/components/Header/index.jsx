@@ -12,13 +12,15 @@ const Header = () => {
                 <p className="text-[12px] font-normal leading-[18px] text-white">Account</p>
             </div>
             <div className="flex justify-between">
-                <img src={logo} alt="" width={220} height={60} />
+                <a href="/">
+                     <img src={logo} alt="" width={220} height={60} />
+                </a>
                 <div className="flex gap-[20px] items-center">
-                    <p className="text-[14px] font-normal leading-[20px] text-white">New & Featured</p>
-                    <p className="text-[14px] font-normal leading-[20px] text-white">Perfumes</p>
-                    <p className="text-[14px] font-normal leading-[20px] text-white">Colognes</p>
-                    <p className="text-[14px] font-normal leading-[20px] text-white">Sale</p>
-                    <p className="text-[14px] font-normal leading-[20px] text-white">Contact</p>
+                    <a href="new-featured" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">New & Featured</a>
+                    <a href="perfumes" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Perfumes</a>
+                    <a href="colognes" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Colognes</a>
+                    <a href="sale" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Sale</a>
+                    <a href="privacy" className="text-[14px] cursor-pointer font-normal leading-[20px] text-white">Contact</a>
                 </div>
                 <div className="flex gap-[20px] items-center">
                     <SearchBox />

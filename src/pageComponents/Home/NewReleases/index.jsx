@@ -19,9 +19,9 @@ const NewReleases = () => {
   }
 
   return (
-    <div className="py-[90px] px-[60px] flex flex-col gap-[25px] relative">
+    <div className="px-[60px] flex flex-col gap-[25px] relative">
       <div className="flex items-center gap-[30px]">
-        <h3 className="text-[28px] leading-[38px] font-normal">NEW RELEASES</h3>
+        <h3 className="text-[28px] leading-[38px] text-white font-normal">NEW RELEASES</h3>
         <p className="gradient-text">View All</p>
       </div>
       <Splide options={splideOptions} hasTrack={false}>

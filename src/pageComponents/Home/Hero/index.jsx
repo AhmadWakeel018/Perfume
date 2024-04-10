@@ -8,11 +8,13 @@ const HeroSection = () => {
                 <h2 className="text-[45px] leading-[60px] font-bold text-white">Indulge in the allure of luxury</h2>
                 <p className="text-[16px] leading-[20px] text-white capitalize">example text for this sections paragraph text but longer for vsual.  example text for this sections paragraph text but longer for vsual</p>
                 <div className="flex gap-[10px]">
-                    <Button btnText={"Shop Perfume"}/>
-                    <Button btnText={"Shop Cologne"} dark={true}/>
+                    <Button btnText={"Shop Perfume"} />
+                    <Button btnText={"Shop Cologne"} dark={true} />
                 </div>
             </div>
-           <RibbonText />
+            <div className="absolute bottom-[30px] left-0 z-10 textScrollToLeft  w-[200%]">
+                <RibbonText />
+            </div>
             <video autoPlay muted loop className="absolute inset-0 h-[89vh] w-full object-cover">
                 <source src="/src/assets/hero-video.mp4" type="video/mp4" />
             </video>
